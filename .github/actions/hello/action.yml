@@ -1,0 +1,16 @@
+name: Hello
+author: Makarov Vladislav
+description: Greet Someone
+
+runs:
+  using: 'node16'
+  main: 'scripts/main.js'
+
+inputs:
+  Name:
+    description: Who to greet
+    required: true
+
+outputs:
+  time:
+    description: 'The time bla bla bla'

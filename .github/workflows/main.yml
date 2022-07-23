@@ -1,0 +1,7 @@
+name: My first actions
+on: [push]
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "SDFSDF"
+      - uses: ./.github/actions/
